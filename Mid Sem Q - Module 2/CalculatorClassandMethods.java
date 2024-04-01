@@ -11,7 +11,7 @@ public class CalculatorClassandMethods {
     double num2= sc.nextInt();
 
     int choice = sc.nextInt();
-
+     double result =0.0;
 
     switch (choice){
         case 1: result = Calculator.add(num1, num2);
